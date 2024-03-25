@@ -9,6 +9,8 @@ This project is implemented in Python, including the following libraries but not
 - PyTorch
 - Scikit-learn
 - Pyswarm
+- Matplotlib
+- SkLearn
 
 The code is designed to run in a Python environment incorporating the above libraries.
 
