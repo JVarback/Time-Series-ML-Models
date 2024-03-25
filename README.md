@@ -11,4 +11,10 @@ This project is implemented in Python, including the following libraries but not
 
 The code is designed to run in a Python environment incorporating the above libraries.
 
-You may set up your local environment and clone this repository for installation. To run the self-attention-based TCN model you may start from inference by using the pth file located in the folder. The data used has been in CSV format where each row represents a value and the column represents time. For our use case, we have pivoted the CSV files in our data preprocessing steps in order to get relevant features in the column space. The project is licensed under an MIT license. We encourage contributions from the community, whether it's in the form of feature requests, bug reports, or pull requests.
+You may set up your local environment and clone this repository for installation. To run the self-attention-based TCN model you may start from inference by using the pth file located in the folder. The data used has been in CSV format where each row represents a value and the column represents time. For our use case, we have pivoted the CSV files in our data preprocessing steps in order to get relevant features in the column space. 
+
+## License
+The project is licensed under an MIT license. 
+
+## Contributions
+We encourage contributions from the community, whether it's in the form of feature requests, bug reports, or pull requests.
