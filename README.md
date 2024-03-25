@@ -8,6 +8,7 @@ This project is implemented in Python, including the following libraries but not
 - Pandas
 - PyTorch
 - Scikit-learn
+- Pyswarm
 
 The code is designed to run in a Python environment incorporating the above libraries.
 
