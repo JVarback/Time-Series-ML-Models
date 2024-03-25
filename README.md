@@ -3,7 +3,7 @@
 We have developed an anomaly detection system for time series data from hardware encoders. Our project focuses on creating two models for this task; an Isolation Forest model and a self-attention-based temporal convolutional neural network. The target achieved for these models has been to isolate outlier data points and differentiate between inliers and outliers for the Isolation forest model, and a focus on the most relevant parts of the time series data along the temporal axis for the other model. 
 
 ## Technologies Used
-This project is implemented in Python, utilizing a suite of powerful libraries including but not limited to:
+This project is implemented in Python, including the following libraries but not limited to:
 - NumPy
 - Pandas
 - PyTorch
