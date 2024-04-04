@@ -14,8 +14,9 @@ This project is implemented in Python, including the following libraries but not
 - SkLearn
 
 The code is designed to run in a Python environment incorporating the above libraries.
+If credited, you may set up your environment and freely clone this repository for installation. 
 
-If credited, you may set up your environment and freely clone this repository for installation. During data pre-processing, you may require to adjust column names in the CSV as needed. 
+During data pre-processing, you may require to adjust column names in the CSV as needed. 
 Whether your dataset requires fewer or additional features, you can adjust the input features for the A-TCN accordingly. 
 The IsolationForest handles dynamic data effectively, while certain plotting sections may require minor adjustments.
 
