@@ -1,6 +1,7 @@
 # Time-series-ML-models
 
-We have developed an anomaly detection system for time series data from hardware encoders. Our project focuses on creating two models for this task; an Isolation Forest model and a self-attention-based temporal convolutional neural network. The target achieved for these models has been to isolate outlier data points and differentiate between inliers and outliers for the Isolation forest model, and a focus on the most relevant parts of the time series data along the temporal axis for the other model. 
+We have developed an anomaly detection system for time series data from hardware encoders. Our project focuses on creating two models for this task; an Isolation Forest model and a self-attention-based temporal convolutional neural network (A-TCN). 
+The target achieved for these models has been to isolate outlier data points and differentiate between inliers and outliers for the Isolation forest model, and A-TCN to focus on crucial segments along the temporal axis within time series.
 
 ## Technologies Used
 This project is implemented in Python, including the following libraries but not limited to:
@@ -14,9 +15,15 @@ This project is implemented in Python, including the following libraries but not
 
 The code is designed to run in a Python environment incorporating the above libraries.
 
-You may set up your local environment and clone this repository for installation. To run the self-attention-based TCN model you may start from inference by using the pth file located in the folder. The data used has been in CSV format where each row represents a value and the column represents time. For our use case, we have pivoted the CSV files in our data preprocessing steps in order to get relevant features in the column space.
+If credited, you may set up your environment and freely clone this repository for installation. During data pre-processing, you may require to adjust column names in the CSV as needed. 
+Whether your dataset requires fewer or additional features, you can adjust the input features for the A-TCN accordingly. 
+The IsolationForest handles dynamic data effectively, while certain plotting sections may require minor adjustments.
 
-For IsolationForest we use similar data processing, you may further use the boolean values for choosing to run IsolationForest by itself, or include Swarm Optimization and SHAP for feature highlighting. 
+To run the ATCN model you may start from inference by using the pth file located in the folder. The data used has been in CSV format where each row represents a value and the column represents time. 
+For our use case, we have pivoted the CSV files in our data preprocessing steps in order to get relevant features in the column space.    
+
+For IsolationForest we use similar data processing, you may further use the boolean values for choosing to run IsolationForest by itself, or include Swarm Optimization and SHAP for feature highlighting.
+When enabling Swarm Optimization, there is one addiontal boolean that dictate two modes - global or average upper-bound.
 
 ## License
 The project is licensed under an MIT license. 
