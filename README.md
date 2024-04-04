@@ -1,4 +1,4 @@
-# Time-series-ML-models
+# A-TCN & IsolationForest
 
 We have developed an anomaly detection system for time series data from hardware encoders. Our project focuses on creating two models for this task; an Isolation Forest model and a self-attention-based temporal convolutional neural network (A-TCN). 
 The target achieved for these models has been to isolate outlier data points and differentiate between inliers and outliers for the Isolation forest model, and A-TCN to focus on crucial segments along the temporal axis within time series.
